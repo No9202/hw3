@@ -1,0 +1,70 @@
+/* 水平导航栏属性    */
+
+/* 水平导航栏风格 */
+.Hor_sty {
+    /*位置在ul */
+    list-style-type: none;
+    margin: 0;  
+    padding: 0;
+    background-color: #dddddd;
+    overflow: hidden;
+}
+
+#list {
+    float: left;
+
+}
+
+#R_list {
+    float: right;
+
+}
+
+/* 链接风格（在a上） */
+.a_h_sty {
+    padding: 14px 18px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #111;
+    background-color: #dddddd;
+}
+    
+a:hover.a_h_sty,
+.dropdown:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* MORE选项的属性 */
+.dropdown {
+    display: inline-block;
+}
+
+/* 下拉菜单框的属性 */
+.droplist {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* 下拉菜单列表的属性 */
+.droplist a {
+    font-size: 16px;
+    color: black;
+    padding: 12px 18px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.droplist a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .droplist {
+    display: block;
+}

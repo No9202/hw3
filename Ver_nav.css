@@ -1,0 +1,46 @@
+ /* 垂直导航栏的属性 */
+
+ /* 垂直导航栏的风格 */
+ .ver_sty {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    position: fixed;
+    height: 100%;
+    background-color: #ffd6be;
+    overflow: auto;
+}
+
+
+/* 链接的风格设置 */
+
+.home {
+    font-size: 16px;
+    padding: 12px 16px;
+    color: #111;
+    display: block;
+    background-color: #e8a706;
+   color: white;
+}
+
+.a_v_sty {
+    position: relative;
+    font-size: 16px;
+    padding: 12px 16px;
+    color: #111;
+    display: block;
+    background-color: #ffd6be;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:hover.a_v_sty {
+    transition: 0.3s ease-in-out;
+    padding: 16px 18px;
+    background-color: #b7b7c5;
+    color: white;
+}
